@@ -7,7 +7,9 @@ const dbConfig = require("./app/config/db.config");
 const app = express();
 
 var corsOptions = {
-  origin: ["https://authopher-client-e4pru9jp9-omurthy.vercel.app/"],
+  //origin: ["https://authopher-client-e4pru9jp9-omurthy.vercel.app/"],
+  origin: '*',
+  optionsSuccessStatus: 200,
   credentials: true
 }
 
