@@ -2,7 +2,7 @@
   "name": "authopher-server",
   "version": "1.0.0",
   "description": "Node.js + MongoDB: JWT Authentication & Authorization",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
