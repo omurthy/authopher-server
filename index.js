@@ -7,18 +7,18 @@ const dbConfig = require("./app/config/db.config");
 const app = express();
 
 var corsOptions = {
-  //origin: ["https://authopher-client-e4pru9jp9-omurthy.vercel.app/"],
-  origin: '*',
+  origin: ["https://authopher-client.vercel.app/"],
+  //origin: '*',
   optionsSuccessStatus: 200,
   credentials: true
 }
-
+/*
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "https://authopher-client.vercel.app");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
-
+ */
 app.use(cors(corsOptions));
 
 // parse requests of content-type - application/json
