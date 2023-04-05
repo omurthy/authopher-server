@@ -37,9 +37,10 @@ app.use(
 
 const db = require("./app/models");
 const Role = db.role;
-
+//mongodb+srv://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}
+//mongodb+srv://db-admin:12345678omur@mydbcluster.9iwcsrs.mongodb.net/?retryWrites=true&w=majority
 db.mongoose
-  .connect(`mongodb://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`, {
+  .connect(`mongodb+srv://db-admin:12345678omur@mydbcluster.9iwcsrs.mongodb.net/?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
