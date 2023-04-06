@@ -19,6 +19,7 @@ app.use(function(req, res, next) {
   next();
 });
  */
+
 app.use(cors(corsOptions));
 app.options('*', cors());
 // parse requests of content-type - application/json
