@@ -41,7 +41,7 @@ const Role = db.role;
 //mongodb+srv://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}
 //mongodb+srv://db-admin:12345678omur@mydbcluster.9iwcsrs.mongodb.net/?retryWrites=true&w=majority
 db.mongoose
-  .connect(`mongodb+srv://db-admin:12345678omur@mydbcluster.9iwcsrs.mongodb.net/?retryWrites=true&w=majority`, {
+  .connect(`mongodb+srv://db-admin:12345678admin@authopherdb.wguaaal.mongodb.net/?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
