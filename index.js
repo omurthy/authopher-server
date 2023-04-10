@@ -11,7 +11,8 @@ var corsOptions = {
   //origin: '*',
   allowedHeaders:"Origin, X-Requested-With, Content-Type, Accept",
   optionsSuccessStatus: 200,
-  credentials: true
+  credentials: true,
+  preflightContinue:true
 }
 /*
 app.use(function(req, res, next) {
