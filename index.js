@@ -8,7 +8,7 @@ const app = express();
 
 var corsOptions = {
   origin: "https://authopher-client.vercel.app",
-  //origin: '*',
+  origin: '*',
   allowedHeaders:"Origin, X-Requested-With, Content-Type, Accept",
   optionsSuccessStatus: 200,
   credentials: true
